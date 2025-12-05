@@ -1,0 +1,22 @@
+package semester1;
+
+public class ArrayExample {
+	public static void main(String[] args) {
+		//declare an array
+		int arr[];
+		//defining an array
+		//there are six array elements
+		//starting index zero and ending index is 6-1=5
+		arr = new int[6];
+		//initializing an array ... means giving value to array elements
+		for (int i=0;i < arr.length;i++) {
+			arr[i]=i*3;
+		
+		}
+		//printing the values
+		for(int i=0;i< arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+package semester1;
+public class Leapyear {
+	public static void main(String[] args) {
+		int year=2026;
+		if(year%366==0) {
+			System.out.println("its is a leap year="+year);
+		}
+		else {
+			System.out.println("its is not a leap year="+year);
+	
+		}
+	}
+
+}
