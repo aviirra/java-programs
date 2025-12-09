@@ -1,0 +1,25 @@
+package com.acharya.classes;
+
+public class Employee {
+	//data or fields
+	int id;
+	String name;
+	double salary;
+	
+	//behaviour or functionality or methods
+	//these below are our own methods or user defined methods
+	public void getSalary() {
+		System.out.println("The salary is : "+salary);
+	}
+	public void getName() {
+		System.out.println("The name is:"+name);
+	}
+
+	public static void main(String[] args) {
+		//object creation for employee class
+		//her emp is refernce or sometimes caalled object of employee class
+		Employee emp= new Employee();
+		System.out.println("emp.id");
+	}
+
+}
