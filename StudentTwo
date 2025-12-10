@@ -1,0 +1,42 @@
+package com.acharya.classes;
+
+public class StudentTwo {
+	int id;
+	String firstname;
+	String lastname;
+	double fees;
+
+	public StudentTwo(int id, String firstname, String lastname, double fees) {
+		this.id = id;
+		this.firstname = firstname;
+		this.lastname = lastname;
+		this.fees = fees;
+
+	}
+
+	public void getName() {
+		System.out.println("Student Name is = " + firstname + lastname);
+
+	}
+
+	public void getFees() {
+		System.out.println("Fees of this student is = " + fees);
+
+	}
+
+	public static void main(String args[]) {
+		StudentTwo st = new StudentTwo(10, "Suprith", "Kumar", 10000);
+		StudentTwo st1 = new StudentTwo(11, "Prajwal", "Gurav", 10000);
+		StudentTwo st2 = new StudentTwo(12, "charan", "Teja", 10000);
+		StudentTwo st3 = new StudentTwo(13, "Manoj", "Gowda", 10000);
+
+		st.getName();
+		st.getFees();
+		st1.getName();
+		st1.getFees();
+		st2.getName();
+		st2.getFees();
+		st3.getName();
+		st3.getFees();
+	}
+}
